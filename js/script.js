@@ -138,6 +138,6 @@ function getDistanceTime(time){
         }
     }
 }
-// setInterval(()=>{
-//     inputData()
-// },1000)
+setInterval(()=>{
+    inputData()
+},1000)
