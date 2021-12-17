@@ -64,7 +64,7 @@ function inputData(){
                         <div class="division2">
                             <h1 class="card-title">${movies[i].title}</h1>
                             <h4 class="genre">${movies[i].genre}</h4>
-                            <h6 class="card-title">${getTime(movies[i].postAt)} || ${movies[i].author}</h6>
+                            <h6 class="card-title" style="font-size: smaller;">${getTime(movies[i].postAt)} || ${movies[i].author}</h6>
                             <div class="card-text">
                                 <p >${movies[i].description}</p>
                             </div>
